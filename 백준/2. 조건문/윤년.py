@@ -1,6 +1,8 @@
 y = int(input())
 #연도가 4의 배수 이면서 100의 배수가 아닐때 또는 400의 배수일때
-if (y % 4 == 0 and y % 100 != 0) or y % 400 == 0:
+if y % 4 == 0 and y % 100 != 0:
+    print("1")
+elif y % 400 == 0:
     print("1")
 else:
     print("0")
